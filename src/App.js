@@ -37,7 +37,6 @@ export default function App() {
 
       {/* Sections with photos and text side by side. */}
       <div className="section"> 
-        <img className="photo" src={Careers} alt="Careers Team 2022"></img>
         <div className="text">
           <p> I've been involved in CSESoc for my entire time at University, in the <b> Careers Portfolio. </b> Last year I was in the <b>Careers Subcommitee</b>, and this year I was fortunate enough to be <b>Careers Director</b>, alongside Bec and Srija. </p>
           <p> Having additional experience as both <b> Treasurer </b> and <b> Arc Delegate (x2)</b>, I feel uniquely positioned to be able to help CSESoc work through its rapid expansion, and come out on the other side greater than ever. </p>
@@ -50,11 +49,14 @@ export default function App() {
           <li> Create a more approachable CSESoc, internally and externally </li>
 
         </div>
+        <img className="photo" src={Careers} alt="Careers Team 2022"></img>
+
       </div>
 
       <div className="section">
+        <img className="photo" src="https://i.postimg.cc/w3KmySDL/1T9A6716.jpg" alt="Cam in Heathers: The Musical" id="heathers"/>
         <div className="text" id="section2"> 
-          <br /> <br />
+          <br /> <br /> <br />
           <p> Here's some more general information about me! </p>
           <br />
           <li> I love music! I play guitar and piano, and I sing. </li>
@@ -62,7 +64,6 @@ export default function App() {
           <li> I even have a youtube channel where I posted a few covers a few years back ... </li>
           <li> Moving away from music, I currently tutor COMP1531 :D </li> 
         </div>
-        <img className="photo" src="https://i.postimg.cc/w3KmySDL/1T9A6716.jpg" alt="Cam in Heathers: The Musical" id="heathers"/>
       </div>
 
       <br /> <h3>
