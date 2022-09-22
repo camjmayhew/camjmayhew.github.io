@@ -21,7 +21,7 @@
 
   .text {
     flex: 2;
-    padding: 30px;
+    padding: 10px 30px;
   }
 
   button {
@@ -37,12 +37,16 @@
   }
 
   #heathers {
-    height: 400px;
+    height: 500px;
   }
 
   img {
     width: 100%;
     height: 100%;
+  }
+
+  #firstPhoto {
+    width: 45%;
   }
 }
 

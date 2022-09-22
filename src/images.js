@@ -4,6 +4,10 @@ export default [
       description: 'Annual Hackathon 2022'
     },
     {
+      original: "https://i.postimg.cc/7YkQLGK1/Careers2022.jpg",
+      description: 'Careers Roadtrip 2022'
+    },
+    {
       original: 'https://i.postimg.cc/xCZxmjjc/I0-A1066-min.png',
       description: 'First Year Camp 2022'
     },
