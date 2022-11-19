@@ -3,10 +3,22 @@
   color: rgb(255, 255, 255);
 }
 
+.Collapsible__trigger {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.Collapsible__trigger.is-open svg {
+  transform: rotate(180deg);
+}
+
 @media only screen and (min-width: 1201px) {
   .intro {
     padding-left: 30px;
     height: 100px;
+    margin: 30px;
   }
 
   .section {
@@ -43,19 +55,54 @@
   img {
     width: 100%;
     height: 100%;
+    border-radius: 5px;
   }
 
   #firstPhoto {
     width: 45%;
   }
+
+  #middleSection {
+    border-width: 1px;
+    border-left-style: solid;
+    border-right-style: solid;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
-  * {
+  #introText {
     text-align: center;
   }
 
+  * {
+    text-align: center;
+    padding: 0px 1px;
+  }
+
+  ol {
+    padding-left: 20px;
+  }
+
+  br {
+    display: none;
+  }
+
+  #firstPhoto {
+    padding: 15px 0px;
+  }
+
   img {
-    width: 100vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+  }
+
+  .social {
+    margin: 20px;
+  }
+
+  .Collapsible {
+    padding: 10px;
   }
 }
